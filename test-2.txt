@@ -1,0 +1,8 @@
+JOIN 
+1- Come si chiamano gli ospiti che hanno fatto più di due prenotazioni?
+
+- SELECT `id`, `ospite_id`
+FROM `ospiti`
+LEFT JOIN `prenotazioni_has_ospiti`
+
+2- 
